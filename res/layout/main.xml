@@ -65,57 +65,33 @@
                 android:focusable="true"/>
 
 
-            <com.learn.eeConnect.CustomFont
-                    android:id="@+id/textViewPlus1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Please grab the url from the module page  in your control panel."
-                    android:layout_centerHorizontal="true"
-                    android:layout_below="@+id/siteEditText"
-                    android:gravity="center"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="normal"
-                    android:textSize="16sp"
-                    android:lineSpacingMultiplier="1.3"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:layout_marginBottom="20dp"
-                    android:focusable="false"
-                    android:typeface="sans"
-                    android:focusableInTouchMode="false"
-                    android:textIsSelectable="false"
-                    android:clickable="false"
-                    android:editable="false"
-
-
-                    foo:customFont="Helvetica.otf">
-            </com.learn.eeConnect.CustomFont>
 
 
 
 
-            <!--<TextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="Please grab the url from the module page  in your control panel."-->
-                <!--android:id="@+id/custom_font"-->
-                <!--android:layout_centerHorizontal="true"-->
-                <!--android:layout_below="@+id/siteEditText"-->
-                <!--android:gravity="center"-->
-                <!--android:textColor="#FFFFFF"-->
-                <!--android:textStyle="normal"-->
-                <!--android:textSize="16sp"-->
-                <!--android:lineSpacingMultiplier="1.3"-->
-                <!--android:layout_marginLeft="40dp"-->
-                <!--android:layout_marginRight="40dp"-->
-                <!--android:layout_marginBottom="24dp"-->
-                <!--android:focusable="false"-->
-                <!--android:typeface="sans"-->
-                <!--android:focusableInTouchMode="false"-->
-                <!--android:textIsSelectable="false"-->
-                <!--android:clickable="false"-->
-                <!--android:editable="false"-->
-                <!--android:visibility="invisible"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please grab the url from the module page  in your control panel."
+                android:id="@+id/custom_font"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/siteEditText"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="16sp"
+                android:lineSpacingMultiplier="1.3"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="24dp"
+                android:focusable="false"
+                android:typeface="sans"
+                android:focusableInTouchMode="false"
+                android:textIsSelectable="false"
+                android:clickable="false"
+                android:editable="false"
+                android:visibility="invisible"/>
 
         <RelativeLayout
                 android:layout_width="fill_parent"
