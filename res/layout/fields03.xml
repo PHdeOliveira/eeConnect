@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:focusableInTouchMode="false"
+                android:background="@drawable/bg"
+                android:visibility="visible"
+                android:focusable="false" >
+
+
+
+
+    <!--Top bar-->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/top_bar"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/topBar" >
+
+
+    </LinearLayout>
+
+    <!--End Top Bar-->
+
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_below="@+id/topBar"
+            android:layout_alignParentBottom="true">
+
+
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/topBar"
+                android:focusableInTouchMode="false"
+                android:focusable="false">
+
+
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/editTitle"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="false"
+                    android:gravity="center"
+                    android:editable="true"
+                    android:inputType="textUri"
+                    android:textStyle="italic"
+                    android:textSize="12sp"
+                    android:visibility="visible"
+                    android:singleLine="true"
+                    android:typeface="monospace"
+                    android:autoText="false"
+                    android:phoneNumber="false"
+                    android:textColor="#ffffff"
+                    android:textIsSelectable="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="18dp"
+                    android:layout_below="@+id/topBar"
+                    android:selectAllOnFocus="true"
+                    android:background="@drawable/addnew"
+                    android:clickable="true"
+                    android:enabled="true"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:password="false"
+                    android:layout_marginTop="26dp"
+                    android:importantForAccessibility="yes"
+                    android:longClickable="true"
+                    android:linksClickable="false"
+                    android:text="Enter Title"
+                    android:focusable="true" />
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/editDescription"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="false"
+                    android:gravity="center"
+                    android:editable="true"
+                    android:inputType="textUri"
+                    android:textStyle="italic"
+                    android:textSize="12sp"
+                    android:visibility="visible"
+                    android:singleLine="true"
+                    android:typeface="monospace"
+                    android:autoText="false"
+                    android:phoneNumber="false"
+                    android:textColor="#ffffff"
+                    android:textIsSelectable="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="18dp"
+                    android:layout_below="@+id/editTitle"
+                    android:selectAllOnFocus="true"
+                    android:background="@drawable/addnew"
+                    android:clickable="true"
+                    android:enabled="true"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:password="false"
+                    android:importantForAccessibility="yes"
+                    android:longClickable="true"
+                    android:linksClickable="false"
+                    android:text="Enter Description"
+                    android:focusable="true"  />
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/editWebsiteUrl"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="false"
+                    android:gravity="center"
+                    android:editable="true"
+                    android:inputType="textUri"
+                    android:textStyle="italic"
+                    android:textSize="12sp"
+                    android:visibility="visible"
+                    android:singleLine="true"
+                    android:typeface="monospace"
+                    android:autoText="false"
+                    android:phoneNumber="false"
+                    android:textColor="#ffffff"
+                    android:textIsSelectable="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="18dp"
+                    android:layout_below="@+id/editDescription"
+                    android:selectAllOnFocus="true"
+                    android:background="@drawable/addnew"
+                    android:clickable="true"
+                    android:enabled="true"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:password="false"
+                    android:importantForAccessibility="yes"
+                    android:longClickable="true"
+                    android:linksClickable="false"
+                    android:text="{ website }"
+                    android:focusable="true"  />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

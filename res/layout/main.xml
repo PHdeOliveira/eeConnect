@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:foo="http://schemas.android.com/apk/res/com.learn.eeConnect"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:weightSum="1.0">
+
+
+
+
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:scrollbars="none"
+            android:measureAllChildren="false"
+            android:layout_weight="1">
+
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                >
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:id="@+id/siteEditText"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="false"
+                android:gravity="center"
+                android:editable="true"
+                android:inputType="textUri"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                android:visibility="visible"
+                android:singleLine="true"
+                android:typeface="monospace"
+                android:autoText="false"
+                android:phoneNumber="false"
+                android:textColor="#ffffff"
+                android:textIsSelectable="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="18dp"
+                android:layout_below="@+id/topBar"
+                android:selectAllOnFocus="true"
+                android:background="@drawable/addnew"
+                android:clickable="true"
+                android:enabled="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:password="false"
+                android:layout_marginTop="26dp"
+                android:importantForAccessibility="yes"
+                android:longClickable="true"
+                android:linksClickable="false"
+                android:text="Enter URL"
+                android:focusable="true"/>
+
+
+            <com.learn.eeConnect.CustomFont
+                    android:id="@+id/textViewPlus1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please grab the url from the module page  in your control panel."
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/siteEditText"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:focusable="false"
+                    android:typeface="sans"
+                    android:focusableInTouchMode="false"
+                    android:textIsSelectable="false"
+                    android:clickable="false"
+                    android:editable="false"
+
+
+                    foo:customFont="Helvetica.otf">
+            </com.learn.eeConnect.CustomFont>
+
+
+
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Please grab the url from the module page  in your control panel."-->
+                <!--android:id="@+id/custom_font"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_below="@+id/siteEditText"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="normal"-->
+                <!--android:textSize="16sp"-->
+                <!--android:lineSpacingMultiplier="1.3"-->
+                <!--android:layout_marginLeft="40dp"-->
+                <!--android:layout_marginRight="40dp"-->
+                <!--android:layout_marginBottom="24dp"-->
+                <!--android:focusable="false"-->
+                <!--android:typeface="sans"-->
+                <!--android:focusableInTouchMode="false"-->
+                <!--android:textIsSelectable="false"-->
+                <!--android:clickable="false"-->
+                <!--android:editable="false"-->
+                <!--android:visibility="invisible"/>-->
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_centerVertical="true"
+                android:layout_below="@+id/textViewPlus1"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/user_pass_container">
+
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/user_pass_container"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/addnew"
+                    android:adjustViewBounds="false"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/user_pass_sep_line"
+                    android:layout_alignParentLeft="false"
+                    android:layout_centerInParent="true"
+                    android:cropToPadding="false"
+                    android:visibility="visible"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentRight="false"
+                    android:background="@drawable/user_pass_line"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:contentDescription="@string/use_sep_line" />
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/user_icon"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="22dp"
+                    android:contentDescription="@string/user_icon"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pass_icon"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="false"
+                    android:src="@drawable/pass_icon"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginBottom="27dp"
+                    android:contentDescription="@string/pass_icon" />
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/username"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/user_pass_container"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal"
+                    android:typeface="monospace"
+                    android:inputType="text|textEmailAddress"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:importantForAccessibility="yes"
+                    android:textSize="12sp"
+                    android:singleLine="true"/>
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/password"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal"
+                    android:typeface="monospace"
+                    android:inputType="textPassword"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:editable="true"
+                    android:importantForAccessibility="yes"
+                    android:textSize="12sp"
+                    android:layout_alignBottom="@+id/user_pass_container"
+                    android:layout_marginBottom="12dp"
+                    android:singleLine="true"
+                    android:password="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_pass_container"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentLeft="false"
+                android:gravity="clip_vertical">
+
+            <!--Cancel Button-->
+
+            <Button
+                    android:layout_width="125dp"
+                    android:layout_height="48dp"
+                    android:text="Cancel"
+                    android:id="@+id/cancel_button"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/cancel_button"
+                    android:clickable="true"
+                    android:shadowColor="#191919"
+                    android:textColor="#ffffff"
+                    android:typeface="sans"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:maxWidth="200dp"
+                    android:singleLine="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentBottom="false"
+                    />
+
+            <!--Sign In Button-->
+            <Button
+                    android:layout_width="125dp"
+                    android:layout_height="48dp"
+                    android:text="Sign In"
+                    android:id="@+id/sign_in_button"
+                    android:layout_alignParentLeft="false"
+                    android:background="@drawable/sign_in_button"
+                    android:clickable="true"
+                    android:shadowColor="#191919"
+                    android:textColor="#ffffff"
+                    android:typeface="sans"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    android:visibility="visible"
+                    android:alpha="1"
+                    android:layout_alignParentRight="true"
+                    android:enabled="true"
+                    android:layout_marginLeft="20dp"
+                    android:maxWidth="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toRightOf="@+id/cancel_button"/>
+
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="200px"
+                    android:id="@+id/space"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_below="@+id/cancel_button"/>
+
+        </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

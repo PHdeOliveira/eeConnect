@@ -1,0 +1,25 @@
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes.dex : \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/AdapterCreator.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/AddSiteDialog$1.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/AddSiteDialog$2.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/AddSiteDialog.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/BuildConfig.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/FieldsActivity$1.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/FieldsActivity$MyPagerAdapter$1.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/FieldsActivity$MyPagerAdapter$2.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/FieldsActivity$MyPagerAdapter.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/FieldsActivity.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/logoSplash$1.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/logoSplash.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/NewActivity.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/R$anim.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/R$attr.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/R$color.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/R$drawable.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/R$id.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/R$layout.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/R$string.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/R$style.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/R.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/classes/com/learn/eeConnect/topBar.class \
+/Users/PedroOliveiraMacAir/Documents/_git/Android Projects/eeConnect/bin/dexedLibs/android-support-v4-403fa0b90565535b613243098a1aa40a.jar \

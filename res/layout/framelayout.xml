@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+    <LinearLayout
+            android:id="@+id/fakelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+    </LinearLayout>
+
+
+    <include layout="@layout/field02"
+            android:id="@+id/settingsPage"
+            android:visibility="invisible" />
+
+    <include layout="@layout/add_site"
+                    android:id="@+id/addsitelayout"/>
+
+
+
+
+
+
+</RelativeLayout>

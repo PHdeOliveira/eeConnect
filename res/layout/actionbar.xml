@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@drawable/top_bar"
+        >
+    <ImageButton
+
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:id="@+id/settingsButton"
+            android:layout_gravity="center|left"
+            android:background="@drawable/setting_button_states"
+            android:src="@drawable/settingsicon"
+            />
+
+    <ImageView
+            android:layout_width="1dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView"
+            android:background="#123d61"
+            android:layout_toRightOf="@+id/settingsButton"
+            android:adjustViewBounds="true"
+            android:paddingBottom="2dp"
+            android:cropToPadding="true"/>
+
+    <ImageView android:background="@drawable/topbarlogo"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/applogo"
+               android:layout_centerInParent="true"
+               android:layout_gravity="center"
+               android:adjustViewBounds="false"
+               android:layout_marginTop="8dp"
+               android:layout_marginBottom="6dp"
+               android:baselineAlignBottom="false"/>
+
+</RelativeLayout>
+
+
+
+
+

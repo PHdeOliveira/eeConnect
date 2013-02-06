@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--res/drawable/sign_in_button.xml-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item>
+        <shape  android:shape="rectangle">
+            <gradient
+                    android:startColor="#30698a"
+                    android:centerColor="#225a7d"
+                    android:endColor="#1a496a"
+                    android:type="linear"
+                    android:angle="-90"/>
+            <corners android:radius="10dp" />
+        </shape>
+
+    </item>
+
+
+</layer-list>

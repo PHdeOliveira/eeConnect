@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eeConnect</string>
+    <string name="use_sep_line"></string>
+    <string name="user_icon"></string>
+    <string name="pass_icon"></string>
+    <string name="applogo"></string>
+    <string name="signin">Sign In</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

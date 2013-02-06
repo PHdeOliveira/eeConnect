@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:focusableInTouchMode="false"
+                android:background="@drawable/bg"
+                android:visibility="visible"
+                android:focusable="false"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/addSiteLayout">
+
+
+    <include layout="@layout/actionbar"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"/>
+
+
+
+    <Button style="@style/addWebSiteButton"
+            android:id="@+id/addSiteButton"
+            android:text="Add Website"
+            android:layout_marginTop="74dp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            android:singleLine="true"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:clickable="true"
+            android:enabled="true"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/addSiteButton"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            android:baselineAlignBottom="false"
+            android:background="@drawable/line_dividers"
+            android:contentDescription="@string/use_sep_line"/>
+
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/imageView">
+
+
+        <include layout="@layout/list_view" />
+
+
+
+        <include layout="@layout/list_row"
+                />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+         <style name="eeTitleBar">
+             <item name="android:background">@drawable/top_bar</item>
+         </style>
+        <style name="eeTheme" parent="android:Theme">
+            <item name="android:windowTitleSize">54dp</item>
+            <item name="android:windowTitleBackgroundStyle">@style/eeTitleBar</item>
+
+        </style>
+
+</resources>
