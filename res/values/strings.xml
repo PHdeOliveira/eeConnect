@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources>
     <string name="app_name">eeConnect</string>
     <string name="use_sep_line"></string>
@@ -7,5 +8,6 @@
     <string name="applogo"></string>
     <string name="signin">Sign In</string>
     <string name="cancel">Cancel</string>
+    <string name="listString">Added Site Name</string>
 
 </resources>

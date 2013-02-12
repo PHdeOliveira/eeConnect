@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
-
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -51,23 +48,18 @@
             android:contentDescription="@string/use_sep_line"/>
 
 
-    <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="0dp"
-            android:layout_below="@+id/imageView">
+    <ListView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/siteAddList"
+              android:divider="@drawable/line_dividers"
+              android:dividerHeight="2dp"
+              android:footerDividersEnabled="true"
+              android:layout_below="@+id/imageView"
+            >
 
 
-        <include layout="@layout/list_view" />
-
-
-
-        <include layout="@layout/list_row"
-                />
-
-
-    </RelativeLayout>
+    </ListView>
 
 
 </RelativeLayout>

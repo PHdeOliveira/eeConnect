@@ -156,6 +156,11 @@
       </item>
     </group>
   </component>
+  <component name="ProjectCodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS">
+      <value />
+    </option>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AppTut.iml" filepath="$PROJECT_DIR$/AppTut.iml" />
@@ -166,6 +171,15 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
+  </component>
+  <component name="libraryTable">
+    <library name="android-support-v4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/AppData/Local/Android/android-sdk/extras/android/support/v4/android-support-v4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
   </component>
 </project>
 

@@ -6,36 +6,25 @@ import android.os.Bundle;
 import android.view.*;
 import android.support.v4.app.DialogFragment;
 import android.view.View.OnClickListener;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ListAdapter;
+import android.widget.*;
 
 import java.util.ArrayList;
 
 
 public class AddSiteDialog extends DialogFragment {
 
-    AddSiteClick aCallback;
 
-    public interface AddSiteClick {
-        public void onSignIn(DialogFragment dialog);
+    public interface AddSiteDialogListener {
+        void onSignIn(String inputText);
 
     }
 
+    private  EditText editText;
 
-    public void onAttach(NewActivity activity) {
-        super.onAttach(activity);
-
-        // This makes sure that the container activity has implemented
-        // the callback interface. If not, it throws an exception
-        try {
-            aCallback = (AddSiteClick) activity;
-        } catch (ClassCastException e) {
-            throw new ClassCastException(activity.toString()
-                    + " must implement OnHeadlineSelectedListener");
-        }
+    public AddSiteDialog() {
+        //Empty constructor
     }
+
 
 
     @Override
@@ -55,7 +44,7 @@ public class AddSiteDialog extends DialogFragment {
         view.setMinimumWidth((int) (displayRectangle.width() * 0.95f));
         view.setMinimumHeight((int) (displayRectangle.height() * 0.88f));
 
-        final EditText editText = (EditText) view.findViewById(R.id.siteEditText);
+        editText = (EditText) view.findViewById(R.id.siteEditText);
 
         editText.setHint("Enter URL");
 
@@ -65,27 +54,23 @@ public class AddSiteDialog extends DialogFragment {
                 editText.setCursorVisible(true);
                 editText.setHint("");
                }
-
         });
 
         ((Button) view.findViewById(R.id.sign_in_button)).setOnClickListener(new OnClickListener() {
-            @Override
+
             public void onClick(View v) {
-                aCallback.onSignIn(AddSiteDialog.this);
-
-
-
+                AddSiteDialogListener activity = (AddSiteDialogListener) getActivity();
+                activity.onSignIn(editText.getText().toString());
+                Toast.makeText(getActivity(), "Site Added", Toast.LENGTH_LONG).show();
+                getDialog().dismiss();
 
             }
         });
-
-
 
         ((Button) view.findViewById(R.id.cancel_button)).setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 getDialog().dismiss();
-
             }
         });
         return view;

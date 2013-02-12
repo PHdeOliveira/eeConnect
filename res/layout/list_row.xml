@@ -4,8 +4,8 @@
                android:layout_width="fill_parent"
                android:layout_height="65dp"
                android:id="@+id/listLayout"
-               android:clickable="false"
-        >
+
+               >
 
 
     <RelativeLayout
@@ -13,12 +13,8 @@
             android:layout_height="44dp"
             android:layout_gravity="left"
             android:background="@drawable/sitelistbg"
-            android:focusable="false"
             android:layout_alignParentLeft="true"
             android:padding="5dp"
-            android:layout_alignParentTop="false"
-            android:layout_alignParentBottom="false"
-            android:layout_alignWithParentIfMissing="false"
             android:layout_centerInParent="true">
 
         <TextView
