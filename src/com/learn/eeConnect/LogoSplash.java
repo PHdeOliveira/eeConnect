@@ -9,7 +9,7 @@ import android.view.Window;
 
 
 public class LogoSplash extends Activity {
-    private static final int SPLASH_DISPLAY_TIME = 2000; // splash screen delay time
+    private static final int SPLASH_DISPLAY_TIME = 500; // splash screen delay time
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

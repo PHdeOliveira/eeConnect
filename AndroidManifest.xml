@@ -21,7 +21,9 @@
         </activity>
 
         <activity android:name=".NewActivity"
-                  android:label="eeConnect" >
+                  android:label="eeConnect"
+                  android:windowSoftInputMode="adjustResize"
+                  >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -29,10 +31,10 @@
 
 
         </activity>
-        <activity android:name="createSite">
 
 
-        </activity>
+
+
 
 
 
