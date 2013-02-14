@@ -25,8 +25,6 @@ public class AddSiteDialog extends DialogFragment {
         //Empty constructor
     }
 
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 

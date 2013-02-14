@@ -4,10 +4,14 @@ import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.util.Log;
+import android.view.ActionMode;
 import android.view.LayoutInflater;
 import android.view.View;
 
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.*;
 
 import java.util.ArrayList;
@@ -15,23 +19,16 @@ import java.util.ArrayList;
 
 public class NewActivity extends FragmentActivity implements AddSiteDialog.AddSiteDialogListener {
 
-
     ListView mSiteListView;
     ArrayList<String> siteList = new ArrayList<String>();
-
     CustomAdapter arrayAdapter = null;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_site);
-        //final String string  = getString(R.string.listString);
-
         mSiteListView = (ListView) findViewById(R.id.siteAddList);
-        //ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.list_row, R.id.textViewId, siteList);
         arrayAdapter = new CustomAdapter();
-
         mSiteListView.setAdapter(arrayAdapter);
 
         Button b = (Button) findViewById(R.id.addSiteButton);
@@ -41,8 +38,8 @@ public class NewActivity extends FragmentActivity implements AddSiteDialog.AddSi
                showDialog();
             }
         });
-
     }
+
     public void showDialog() {
         FragmentManager fm = getSupportFragmentManager();
         AddSiteDialog addSiteDialog = new AddSiteDialog();
@@ -51,8 +48,10 @@ public class NewActivity extends FragmentActivity implements AddSiteDialog.AddSi
 
     public void onSignIn(String inputText) {
         siteList.add(inputText);
+        arrayAdapter.notifyDataSetChanged();
 
     }
+
     class CustomAdapter extends ArrayAdapter<String> {
         CustomAdapter() {
             super(NewActivity.this, R.layout.add_site, siteList);
@@ -63,11 +62,16 @@ public class NewActivity extends FragmentActivity implements AddSiteDialog.AddSi
             if (row == null){
                 LayoutInflater inflater = getLayoutInflater();
                 row = inflater.inflate(R.layout.list_row, parent, false);
+                Animation animation = AnimationUtils.loadAnimation(getContext(), R.anim.slide_down);
+                row.startAnimation(animation);
             }
 
             ((TextView) row.findViewById(R.id.textViewId)).setText(siteList.get(position));
 
-            return (row);
+
+            return row;
         }
     }
+
+
 }
