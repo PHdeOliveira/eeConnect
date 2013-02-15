@@ -1,5 +1,7 @@
 package com.learn.eeConnect;
 
+import android.app.Notification;
+import android.app.NotificationManager;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
@@ -18,6 +20,7 @@ import java.util.ArrayList;
 
 
 public class NewActivity extends FragmentActivity implements AddSiteDialog.AddSiteDialogListener {
+
 
     ListView mSiteListView;
     ArrayList<String> siteList = new ArrayList<String>();
@@ -39,6 +42,11 @@ public class NewActivity extends FragmentActivity implements AddSiteDialog.AddSi
             }
         });
     }
+
+
+        //notificationManager.notify(0, mBuilder);
+
+
 
     public void showDialog() {
         FragmentManager fm = getSupportFragmentManager();

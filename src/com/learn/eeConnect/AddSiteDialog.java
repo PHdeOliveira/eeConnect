@@ -1,8 +1,12 @@
 package com.learn.eeConnect;
 
 
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.graphics.Rect;
 import android.os.Bundle;
+import android.support.v4.app.NotificationCompat;
 import android.view.*;
 import android.support.v4.app.DialogFragment;
 import android.view.View.OnClickListener;
@@ -13,11 +17,12 @@ import java.util.ArrayList;
 
 public class AddSiteDialog extends DialogFragment {
 
-
     public interface AddSiteDialogListener {
         void onSignIn(String inputText);
-
     }
+
+    public Notifications notifications;
+
 
     private  EditText editText;
 
@@ -54,15 +59,17 @@ public class AddSiteDialog extends DialogFragment {
                }
         });
 
+
         ((Button) view.findViewById(R.id.sign_in_button)).setOnClickListener(new OnClickListener() {
 
             public void onClick(View v) {
                 AddSiteDialogListener activity = (AddSiteDialogListener) getActivity();
                 activity.onSignIn(editText.getText().toString());
+                notifications.notify();
                 Toast.makeText(getActivity(), "Site Added", Toast.LENGTH_LONG).show();
                 getDialog().dismiss();
-
             }
+
         });
 
         ((Button) view.findViewById(R.id.cancel_button)).setOnClickListener(new OnClickListener() {

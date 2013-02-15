@@ -24,7 +24,7 @@
     </option>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="WARN" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4373d428-9ea7-4417-8702-c9b3e01f34ee" name="Default" comment="" />
@@ -43,14 +43,15 @@
     <file path="/sign_in_button.xml" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1358267263336" ignored="false" />
     <file path="/cancel_button.xml" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1358269774147" ignored="false" />
     <file path="/FieldsActivity.java" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1359495786323" ignored="false" />
-    <file path="/NewActivity.java" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360876978636" ignored="false" />
-    <file path="/AddSiteDialog.java" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360865323149" ignored="false" />
+    <file path="/NewActivity.java" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360955600524" ignored="false" />
+    <file path="/AddSiteDialog.java" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360960490416" ignored="false" />
     <file path="/a.xml" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360875483756" ignored="false" />
     <file path="/add_site.xml" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360703361091" ignored="false" />
     <file path="/list_view.xml" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360705425523" ignored="false" />
     <file path="/list_row.xml" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360706714507" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/learn/eeConnect/R.java" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360765095566" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/learn/eeConnect/R.java" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360946197228" ignored="false" />
     <file path="/a.java" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360864108538" ignored="false" />
+    <file path="/Notifications.java" changelist="4373d428-9ea7-4417-8702-c9b3e01f34ee" time="1360960585312" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,94 +136,48 @@
     <leaf>
       <file leaf-file-name="add_site.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/add_site.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="13" selection-start="1904" selection-end="1904" vertical-scroll-proportion="5.2">
+            <state line="50" column="13" selection-start="1904" selection-end="1904" vertical-scroll-proportion="-0.68">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="NewActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/learn/eeConnect/NewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="98" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#665#673#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slide_down.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/anim/slide_down.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="34" selection-start="290" selection-end="290" vertical-scroll-proportion="0.13584475">
+            <state line="23" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slide_down_fromdown.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/anim/slide_down_fromdown.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slide_down_fromup.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/anim/slide_down_fromup.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slide_up.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/anim/slide_up.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="right_slide_in.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/anim/right_slide_in.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddSiteDialog.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AddSiteDialog.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/learn/eeConnect/AddSiteDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="11" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
+            <state line="67" column="0" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.9434389">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1594#1965#0" expanded="true" />
-                <element signature="e#1954#1955#0" expanded="true" />
+                <element signature="e#1507#1708#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
+                <element signature="e#1790#2201#0" expanded="true" />
+                <element signature="e#2189#2190#0" expanded="true" />
+                <element signature="e#2281#2431#0" expanded="true" />
+                <element signature="e#2420#2421#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_row.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/list_row.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="Notifications.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learn/eeConnect/Notifications.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="12" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="18" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -244,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/gen/com/learn/AppTut/R.java" />
         <option value="$PROJECT_DIR$/res/drawable-xhdpi/sign_in_button.xml" />
         <option value="$PROJECT_DIR$/res/drawable-xhdpi/cancel_button.xml" />
         <option value="$PROJECT_DIR$/res/drawable-mdpi/rounded_editedtext.xml" />
@@ -256,10 +210,11 @@
         <option value="$PROJECT_DIR$/res/layout/list_row.xml" />
         <option value="$PROJECT_DIR$/res/layout/list_view.xml" />
         <option value="$PROJECT_DIR$/res/layout/add_site.xml" />
-        <option value="$PROJECT_DIR$/src/com/learn/eeConnect/AddSiteDialog.java" />
         <option value="$PROJECT_DIR$/res/anim/slide_top_to_bottom.xml" />
-        <option value="$PROJECT_DIR$/src/com/learn/eeConnect/NewActivity.java" />
         <option value="$PROJECT_DIR$/res/anim/slide_down.xml" />
+        <option value="$PROJECT_DIR$/src/com/learn/eeConnect/NewActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/eeConnect/Notifications.java" />
+        <option value="$PROJECT_DIR$/src/com/learn/eeConnect/AddSiteDialog.java" />
       </list>
     </option>
   </component>
@@ -267,8 +222,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
+    <option name="x" value="1034" />
+    <option name="width" value="886" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -356,8 +311,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -478,6 +431,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,11 +449,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -538,19 +493,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -576,6 +518,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -681,11 +636,12 @@
       <workItem from="1360863242085" duration="479000" />
       <workItem from="1360863962291" duration="1284000" />
       <workItem from="1360865318167" duration="5820000" />
+      <workItem from="1360946184331" duration="12958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7583000" />
+    <option name="totallyTimeSpent" value="20541000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -708,14 +664,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1080" extended-state="0" />
-    <editor active="false" />
+    <frame x="1034" y="0" width="886" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.111793615" sideWeight="0.32596686" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997833" sideWeight="0.4966722" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997833" sideWeight="0.49750414" order="7" side_tool="true" content_ui="tabs" />
@@ -730,11 +686,11 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.25612473" sideWeight="0.6728061" order="0" side_tool="true" content_ui="combo" x="1997" y="64" width="298" height="923" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719395" sideWeight="0.48850575" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08985025" sideWeight="0.6002167" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20798668" sideWeight="0.6002167" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.111793615" sideWeight="0.32596686" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -816,57 +772,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learn/eeConnect/FieldsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="12" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gen/com/learn/eeConnect/R.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="39" selection-start="143" selection-end="143" vertical-scroll-proportion="0.12878788" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="835" selection-end="835" vertical-scroll-proportion="2.56">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/list_row.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_row.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="12" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/add_site.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/add_site.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="13" selection-start="1904" selection-end="1904" vertical-scroll-proportion="5.2">
+        <state line="50" column="13" selection-start="1904" selection-end="1904" vertical-scroll-proportion="-0.68">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learn/eeConnect/AddSiteDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="11" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1594#1965#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
-          </folding>
-        </state>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/anim/slide_top_to_bottom.xml">
@@ -911,13 +849,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk/platforms/android-16/data/res/values/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="19" selection-start="4463" selection-end="4463" vertical-scroll-proportion="0.33256084" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/anim/slide_down.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learn/eeConnect/NewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="98" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#665#673#0" expanded="true" />
-          </folding>
+        <state line="23" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -928,17 +875,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk/platforms/android-16/data/res/values/config.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/learn/eeConnect/Notifications.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="19" selection-start="4463" selection-end="4463" vertical-scroll-proportion="0.33256084">
-          <folding />
+        <state line="18" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/anim/slide_down.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/learn/eeConnect/AddSiteDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="290" selection-end="290" vertical-scroll-proportion="0.13584475">
-          <folding />
+        <state line="67" column="0" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.9434389">
+          <folding>
+            <element signature="e#1507#1708#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1790#2201#0" expanded="true" />
+            <element signature="e#2189#2190#0" expanded="true" />
+            <element signature="e#2281#2431#0" expanded="true" />
+            <element signature="e#2420#2421#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
